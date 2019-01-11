@@ -1,0 +1,16 @@
+PODS:
+  - BWWalkthrough (2.1.2)
+
+DEPENDENCIES:
+  - BWWalkthrough
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BWWalkthrough
+
+SPEC CHECKSUMS:
+  BWWalkthrough: 6b18dc688ff6b7168383fee07fe199ccaad7e9f7
+
+PODFILE CHECKSUM: fb8d035c8d4edc83c7d3627b67639bc8494dfe39
+
+COCOAPODS: 1.5.3

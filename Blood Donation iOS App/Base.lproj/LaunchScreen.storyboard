@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donate_blood" translatesAutoresizingMaskIntoConstraints="NO" id="30f-Nn-Byj">
+                                <rect key="frame" x="80.5" y="227" width="214" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="30f-Nn-Byj" secondAttribute="height" multiplier="214:213" id="R6N-Lz-rME"/>
+                                    <constraint firstAttribute="width" constant="214" id="lAb-uY-bpT"/>
+                                    <constraint firstAttribute="height" constant="213" id="nlJ-Y2-zcl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verved_logo" translatesAutoresizingMaskIntoConstraints="NO" id="rNS-ef-35v">
+                                <rect key="frame" x="141" y="601" width="93" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="2br-1p-7KH"/>
+                                    <constraint firstAttribute="width" constant="93" id="G8A-Or-C40"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jUZ-FB-wxE">
+                                <rect key="frame" x="71" y="448" width="233" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Donation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqd-hQ-tBD">
+                                        <rect key="frame" x="99" y="2" width="123" height="36"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
+                                        <color key="textColor" red="1" green="0.28621703059999998" blue="0.27323373540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="1" green="0.28621703059999998" blue="0.27323373540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5f-JC-SCh">
+                                        <rect key="frame" x="13" y="2" width="86" height="36"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Hqd-hQ-tBD" firstAttribute="leading" secondItem="O5f-JC-SCh" secondAttribute="trailing" id="3WE-OF-7Cm"/>
+                                    <constraint firstItem="Hqd-hQ-tBD" firstAttribute="top" secondItem="jUZ-FB-wxE" secondAttribute="top" constant="2" id="6HI-BP-png"/>
+                                    <constraint firstItem="O5f-JC-SCh" firstAttribute="leading" secondItem="jUZ-FB-wxE" secondAttribute="leading" constant="13" id="ENN-7E-ARd"/>
+                                    <constraint firstItem="Hqd-hQ-tBD" firstAttribute="leading" secondItem="O5f-JC-SCh" secondAttribute="trailing" id="JVw-JQ-FFP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hqd-hQ-tBD" secondAttribute="trailing" constant="11" id="Moi-ED-l6a"/>
+                                    <constraint firstAttribute="bottom" secondItem="O5f-JC-SCh" secondAttribute="bottom" constant="-2" id="Myw-l9-634"/>
+                                    <constraint firstItem="O5f-JC-SCh" firstAttribute="top" secondItem="jUZ-FB-wxE" secondAttribute="top" constant="2" id="fMb-mm-yDi"/>
+                                    <constraint firstAttribute="width" constant="233" id="ks0-Hr-5QJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hqd-hQ-tBD" secondAttribute="bottom" constant="-2" id="w5T-qL-0LG"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every life is precious." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NgV-Sr-apN">
+                                <rect key="frame" x="80" y="492" width="215" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="3bg-vi-Xx2"/>
+                                    <constraint firstAttribute="width" constant="215" id="Jhc-hU-f2H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="30f-Nn-Byj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="19S-57-txA"/>
+                            <constraint firstItem="NgV-Sr-apN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A7X-P0-uJH"/>
+                            <constraint firstItem="jUZ-FB-wxE" firstAttribute="top" secondItem="30f-Nn-Byj" secondAttribute="bottom" constant="8" id="DdP-YP-E2x"/>
+                            <constraint firstItem="jUZ-FB-wxE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kh7-6X-pfe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rNS-ef-35v" secondAttribute="bottom" constant="20" id="UHs-H8-uSe"/>
+                            <constraint firstItem="30f-Nn-Byj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kvk-1R-MJc"/>
+                            <constraint firstItem="NgV-Sr-apN" firstAttribute="top" secondItem="jUZ-FB-wxE" secondAttribute="bottom" constant="8" id="p2D-KB-Xgx"/>
+                            <constraint firstItem="rNS-ef-35v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wuj-bk-rhN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="donate_blood" width="500" height="521"/>
+        <image name="verved_logo" width="309" height="154"/>
+    </resources>
+</document>

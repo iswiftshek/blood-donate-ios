@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF3EA82795841B7901BAA99 /* BWWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F051933A405DFC9211D43AFB /* BWWalkthrough.framework */; };
+		FD10131321CE5AEE00F74528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD10131221CE5AEE00F74528 /* AppDelegate.swift */; };
+		FD10131521CE5AEE00F74528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD10131421CE5AEE00F74528 /* ViewController.swift */; };
+		FD10131B21CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD10131921CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodeld */; };
+		FD10131D21CE5AF000F74528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD10131C21CE5AF000F74528 /* Assets.xcassets */; };
+		FD10132021CE5AF000F74528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD10131E21CE5AF000F74528 /* LaunchScreen.storyboard */; };
+		FD39932A21CEA975000CC4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD39932921CEA975000CC4EA /* Main.storyboard */; };
+		FD39933821CEC8A7000CC4EA /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39932E21CEC891000CC4EA /* BWWalkthroughPageViewController.swift */; };
+		FD39933921CEC8A9000CC4EA /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39932F21CEC891000CC4EA /* BWWalkthroughViewController.swift */; };
+		FD39933D21CEEBCC000CC4EA /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD39933C21CEEBCC000CC4EA /* Walkthrough.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6940BFB4D76147CFBCC92877 /* Pods-Blood Donation iOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood Donation iOS App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blood Donation iOS App/Pods-Blood Donation iOS App.release.xcconfig"; sourceTree = "<group>"; };
+		ED3DA6B36F16E5BA5DD5FB2C /* Pods-Blood Donation iOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood Donation iOS App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blood Donation iOS App/Pods-Blood Donation iOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		F051933A405DFC9211D43AFB /* BWWalkthrough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BWWalkthrough.framework; path = "../../../../../../../Autosave Information/Blood Donation iOS App/Blood Donation iOS App/BWWalkthrough/BWWalkthrough.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD10130F21CE5AEE00F74528 /* Blood Donation iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood Donation iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD10131221CE5AEE00F74528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD10131421CE5AEE00F74528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD10131A21CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blood_Donation_iOS_App.xcdatamodel; sourceTree = "<group>"; };
+		FD10131C21CE5AF000F74528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD10131F21CE5AF000F74528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD10132121CE5AF000F74528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD39932921CEA975000CC4EA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FD39932C21CEB73E000CC4EA /* BWWalkthrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWalkthrough.h; sourceTree = "<group>"; };
+		FD39932E21CEC891000CC4EA /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		FD39932F21CEC891000CC4EA /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		FD39933C21CEEBCC000CC4EA /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD10130C21CE5AEE00F74528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF3EA82795841B7901BAA99 /* BWWalkthrough.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6829BE5C48C69D06515633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DA6B36F16E5BA5DD5FB2C /* Pods-Blood Donation iOS App.debug.xcconfig */,
+				6940BFB4D76147CFBCC92877 /* Pods-Blood Donation iOS App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A52321D7EFD6CEEBC21FC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD10130621CE5AEE00F74528 = {
+			isa = PBXGroup;
+			children = (
+				FD10131121CE5AEE00F74528 /* Blood Donation iOS App */,
+				FD10131021CE5AEE00F74528 /* Products */,
+				F051933A405DFC9211D43AFB /* BWWalkthrough.framework */,
+				5A52321D7EFD6CEEBC21FC59 /* Frameworks */,
+				1E6829BE5C48C69D06515633 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FD10131021CE5AEE00F74528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD10130F21CE5AEE00F74528 /* Blood Donation iOS App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD10131121CE5AEE00F74528 /* Blood Donation iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				FD10131221CE5AEE00F74528 /* AppDelegate.swift */,
+				FD39932E21CEC891000CC4EA /* BWWalkthroughPageViewController.swift */,
+				FD39932F21CEC891000CC4EA /* BWWalkthroughViewController.swift */,
+				FD10131421CE5AEE00F74528 /* ViewController.swift */,
+				FD39932C21CEB73E000CC4EA /* BWWalkthrough.h */,
+				FD10131C21CE5AF000F74528 /* Assets.xcassets */,
+				FD10131E21CE5AF000F74528 /* LaunchScreen.storyboard */,
+				FD39933C21CEEBCC000CC4EA /* Walkthrough.storyboard */,
+				FD10132121CE5AF000F74528 /* Info.plist */,
+				FD10131921CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodeld */,
+				FD39932921CEA975000CC4EA /* Main.storyboard */,
+			);
+			path = "Blood Donation iOS App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD10130E21CE5AEE00F74528 /* Blood Donation iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD10132421CE5AF000F74528 /* Build configuration list for PBXNativeTarget "Blood Donation iOS App" */;
+			buildPhases = (
+				17D149649926AAB9C8A0E11B /* [CP] Check Pods Manifest.lock */,
+				FD10130B21CE5AEE00F74528 /* Sources */,
+				FD10130C21CE5AEE00F74528 /* Frameworks */,
+				FD10130D21CE5AEE00F74528 /* Resources */,
+				D11E9B9E48C222799E1C2BC8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blood Donation iOS App";
+			productName = "Blood Donation iOS App";
+			productReference = FD10130F21CE5AEE00F74528 /* Blood Donation iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD10130721CE5AEE00F74528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Abhishek Sansanwal";
+				TargetAttributes = {
+					FD10130E21CE5AEE00F74528 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FD10130A21CE5AEE00F74528 /* Build configuration list for PBXProject "Blood Donation iOS App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD10130621CE5AEE00F74528;
+			productRefGroup = FD10131021CE5AEE00F74528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD10130E21CE5AEE00F74528 /* Blood Donation iOS App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD10130D21CE5AEE00F74528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD10132021CE5AF000F74528 /* LaunchScreen.storyboard in Resources */,
+				FD39933D21CEEBCC000CC4EA /* Walkthrough.storyboard in Resources */,
+				FD10131D21CE5AF000F74528 /* Assets.xcassets in Resources */,
+				FD39932A21CEA975000CC4EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D149649926AAB9C8A0E11B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blood Donation iOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11E9B9E48C222799E1C2BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blood Donation iOS App/Pods-Blood Donation iOS App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BWWalkthrough/BWWalkthrough.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BWWalkthrough.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blood Donation iOS App/Pods-Blood Donation iOS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD10130B21CE5AEE00F74528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD10131B21CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodeld in Sources */,
+				FD39933821CEC8A7000CC4EA /* BWWalkthroughPageViewController.swift in Sources */,
+				FD39933921CEC8A9000CC4EA /* BWWalkthroughViewController.swift in Sources */,
+				FD10131521CE5AEE00F74528 /* ViewController.swift in Sources */,
+				FD10131321CE5AEE00F74528 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD10131E21CE5AF000F74528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD10131F21CE5AF000F74528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD10132221CE5AF000F74528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD10132321CE5AF000F74528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD10132521CE5AF000F74528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3DA6B36F16E5BA5DD5FB2C /* Pods-Blood Donation iOS App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "Blood Donation iOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhisheksansanwal.Blood-Donation-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD10132621CE5AF000F74528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6940BFB4D76147CFBCC92877 /* Pods-Blood Donation iOS App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "Blood Donation iOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhisheksansanwal.Blood-Donation-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD10130A21CE5AEE00F74528 /* Build configuration list for PBXProject "Blood Donation iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD10132221CE5AF000F74528 /* Debug */,
+				FD10132321CE5AF000F74528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD10132421CE5AF000F74528 /* Build configuration list for PBXNativeTarget "Blood Donation iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD10132521CE5AF000F74528 /* Debug */,
+				FD10132621CE5AF000F74528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD10131921CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD10131A21CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodel */,
+			);
+			currentVersion = FD10131A21CE5AEE00F74528 /* Blood_Donation_iOS_App.xcdatamodel */;
+			path = Blood_Donation_iOS_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD10130721CE5AEE00F74528 /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module BWWalkthrough {
+  umbrella header "BWWalkthrough.h"
+
+  export *
+  module * { export * }
+}
+
+module BWWalkthrough.Swift {
+    header "BWWalkthrough-Swift.h"
+    requires objc
+}
